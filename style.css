@@ -1,0 +1,38 @@
+/* background image of the site */
+body 
+	{
+		background-image: url('background.png');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+/* text colour on page */
+p
+	{
+		color:#c7ccc6;
+	}
+
+td
+	{
+	color:#c7ccc6;
+	}
+	
+/* changes opacity of card  */
+.card 
+	{ 
+		background-color: rgba(245, 245, 245, 0.3);
+	}
+
+/* changes opacity of list and changes text colour  */
+.list-group-item 
+	{
+		background-color: transparent;
+		color: #c7ccc6;
+	}
+/* changes text colour and removes style type to make a pseduo heading */
+	.list-head
+	{
+		color:#c7ccc6;
+		list-style-type: none;	
+	}
